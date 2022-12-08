@@ -147,24 +147,27 @@ section{
   font-family: sans-serif;
   text-align: justify;
   color: #555;
+
 }
 
-.card{
-/*   border:1px solid #aaa;  */
+.cardfilm{
+  justify-content: space-between;
   width:100%; 
   max-width: 300px;
-  margin: 10px;
+  margin: 50px;
   box-shadow: 0 5px 10px #ddd;
-  transition: .5s;
+  transition: 2.5s;
   cursor: context-menu;
+  
+ 
 }
 
-.card:hover{
-  transform: scale(.97)
+.cardfilm:hover{
+  transform: scale(1.2)
 }
 
 
-.card img{
+.cardfilm img{
   
   height: 450px; 
    
@@ -193,6 +196,6 @@ section{
   cursor: pointer;
 }
 
-.card:hover button{
+.cardfilm:hover button{
   transform: translateY(-7px);
 }
