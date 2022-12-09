@@ -27,6 +27,7 @@ ul {
   width: 250px;
   height: 100vh;
   padding: 20px 0;
+  position: inherit;
 
   font-size: 1rem;
   font-weight: bold;
@@ -199,3 +200,4 @@ section{
 .cardfilm:hover button{
   transform: translateY(-7px);
 }
+

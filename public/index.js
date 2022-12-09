@@ -68,4 +68,3 @@ vehiclesArray.forEach( (vehicle) => {
   chart.draw(data, options);
 }
 
-
